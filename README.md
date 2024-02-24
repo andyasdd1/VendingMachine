@@ -1,1 +1,4 @@
 # VendingMachine
+This program is designed following some factory programming pattern.
+The whole program is flexible for later add on beverages because the Coffee and Tea class all follows an abstract Beverage class. More over, for different Tea and Coffee they can also be easily added as all the key features has already been implemented inside the Coffee or Tea abstract classes. The TeaFactory or CoffeeFactory also works clearly and simple, just switching between different type it will create different object. Userinterface has been separated for easy data collection and send in a package to VendingMachine class.
+The whole program consists of Beverage types (Tea, Coffee) and their interfaces. Factories which handle creating different Beverages. And VendingMachine which responsible for calling the two factories.
